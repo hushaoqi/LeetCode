@@ -12,7 +12,6 @@ class Solution:
             # if (curmax >= resmax): end = i
             resmax = max(resmax,curmax)
             i += 1
-
         # for k in range(start,end+1):
         #     print(nums[k],end=' ')
         return resmax
