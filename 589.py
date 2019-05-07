@@ -11,7 +11,7 @@ class Solution:
         self.Ntree_preorder(root, res)
         return res
 
-    def Ntree_preorder(self, node: Node, res: 'List[int]'):
+    def Ntree_preorder(self, node: 'Node', res: 'List[int]'):
         if node is None: return
         res.append(node.val)
         if node.children:  # 一定要判断是否为空，否则迭代器报错
@@ -25,13 +25,14 @@ class Solution:
         queue = [root]
         while len(queue) != 0:
             node = queue.pop()
-            res.append(node.val)
-            temp = []
-            if node.children:
-                for child in node.children:
-                    temp.append(child)
-            temp.reverse()  # 由于是前序，所以要逆序
-            queue.extend(temp)
+            if node:
+                res.append(node.val)
+                temp = []
+                if node.children:
+                    for child in node.children:
+                        temp.append(child)
+                temp.reverse()  # 由于是前序，所以要逆序
+                queue.extend(temp)
         return res
 
 if __name__ == '__main__':
