@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="823eaf11-07f7-4126-9a86-885e4d0a58d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1022.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/530.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/653.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/669.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/671.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/700.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/783.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/938.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/965.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/230.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/43.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/78.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/589.py" beforeDir="false" afterPath="$PROJECT_DIR$/589.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +61,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$566.coverage" NAME="566 Coverage Results" MODIFIED="1551869030893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$101.coverage" NAME="101 Coverage Results" MODIFIED="1554705889454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$125.coverage" NAME="125 Coverage Results" MODIFIED="1553654640310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$16.coverage" NAME="16 Coverage Results" MODIFIED="1557555577966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$217.coverage" NAME="217 Coverage Results" MODIFIED="1551361438269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$119.coverage" NAME="119 Coverage Results" MODIFIED="1551008680404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$530.coverage" NAME="530 Coverage Results" MODIFIED="1557127319865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -106,7 +105,9 @@
     <SUITE FILE_PATH="coverage/LeetCode$840.coverage" NAME="840 Coverage Results" MODIFIED="1552878774678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$26.coverage" NAME="26 Coverage Results" MODIFIED="1550886945459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$283.coverage" NAME="283 Coverage Results" MODIFIED="1551418636946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$11.coverage" NAME="11 Coverage Results" MODIFIED="1557885054573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$20.coverage" NAME="20 Coverage Results" MODIFIED="1553045734826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$78.coverage" NAME="78 Coverage Results" MODIFIED="1558163861063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$203.coverage" NAME="203 Coverage Results" MODIFIED="1553411903188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$653.coverage" NAME="653 Coverage Results" MODIFIED="1557142271220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$167.coverage" NAME="167 Coverage Results" MODIFIED="1551240501421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -118,7 +119,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$766.coverage" NAME="766 Coverage Results" MODIFIED="1552638754731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$53.coverage" NAME="53 Coverage Results" MODIFIED="1551277078350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$88.coverage" NAME="88 Coverage Results" MODIFIED="1551006591704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCode$784.coverage" NAME="784 Coverage Results" MODIFIED="1554039548404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$784.coverage" NAME="784 Coverage Results" MODIFIED="1557292150000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$371.coverage" NAME="371 Coverage Results" MODIFIED="1553763116981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$643.coverage" NAME="643 Coverage Results" MODIFIED="1552140998851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$1013.coverage" NAME="1013 Coverage Results" MODIFIED="1552998167537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -131,16 +132,21 @@
     <SUITE FILE_PATH="coverage/LeetCode$747.coverage" NAME="747 Coverage Results" MODIFIED="1552631149133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$107.coverage" NAME="107 Coverage Results" MODIFIED="1554779902702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$226.coverage" NAME="226 Coverage Results" MODIFIED="1554963614730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$5.coverage" NAME="5 Coverage Results" MODIFIED="1557892734266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$235.coverage" NAME="235 Coverage Results" MODIFIED="1555047780347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$872.coverage" NAME="872 Coverage Results" MODIFIED="1557103817631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$58.coverage" NAME="58 Coverage Results" MODIFIED="1553324092551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$43.coverage" NAME="43 Coverage Results" MODIFIED="1558173042458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$437.coverage" NAME="437 Coverage Results" MODIFIED="1556524193311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$606.coverage" NAME="606 Coverage Results" MODIFIED="1556978988927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$532.coverage" NAME="532 Coverage Results" MODIFIED="1551859442195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$697.coverage" NAME="697 Coverage Results" MODIFIED="1552453547312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$345.coverage" NAME="345 Coverage Results" MODIFIED="1553662527251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$141.coverage" NAME="141 Coverage Results" MODIFIED="1553394220532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$230.coverage" NAME="230 Coverage Results" MODIFIED="1558165852962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$70.coverage" NAME="70 Coverage Results" MODIFIED="1557558388770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$190.coverage" NAME="190 Coverage Results" MODIFIED="1553755433645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$15.coverage" NAME="15 Coverage Results" MODIFIED="1557553135329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$389.coverage" NAME="389 Coverage Results" MODIFIED="1553923829048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$21.coverage" NAME="21 Coverage Results" MODIFIED="1553392139220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$783.coverage" NAME="783 Coverage Results" MODIFIED="1557137888656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -167,23 +173,23 @@
     <session id="-1231346600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="58" />
+          <entry key="project.closed" value="64" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="5" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="3" />
-          <entry key="project.open.time.28" value="4" />
+          <entry key="project.open.time.28" value="5" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.30" value="4" />
+          <entry key="project.open.time.30" value="5" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="2" />
-          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="2" />
@@ -192,8 +198,9 @@
           <entry key="project.open.time.40" value="3" />
           <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.49" value="2" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
@@ -201,32 +208,32 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="59" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="232" />
+          <entry key="py" value="248" />
           <entry key="pyi" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="232" />
+          <entry key="Python" value="248" />
           <entry key="PythonStub" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="63457" />
-          <entry key="txt" value="203" />
+          <entry key="py" value="69150" />
+          <entry key="txt" value="211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="213" />
-          <entry key="Python" value="63457" />
+          <entry key="PLAIN_TEXT" value="221" />
+          <entry key="Python" value="69150" />
         </counts>
       </usages-collector>
     </session>
@@ -234,119 +241,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/687.py">
+        <entry file="file://$PROJECT_DIR$/230.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="50" column="3" selection-start-line="28" selection-end-line="50" selection-end-column="3" />
-              <folding>
-                <marker date="1557105818709" expanded="true" signature="226:303" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/530.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" selection-end-line="65" selection-end-column="7" />
-              <folding>
-                <marker date="1557127615329" expanded="true" signature="315:368" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/783.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-              <folding>
-                <marker date="1557128356181" expanded="true" signature="1003:1012" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/653.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2511">
-              <caret line="93" column="3" selection-start-line="73" selection-end-line="93" selection-end-column="3" />
-              <folding>
-                <marker date="1557142374689" expanded="true" signature="237:246" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/669.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="51" selection-start-line="51" selection-end-line="71" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/671.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2403">
-              <caret line="89" column="7" selection-start-line="69" selection-end-line="89" selection-end-column="7" />
-              <folding>
-                <marker date="1557153015525" expanded="true" signature="241:428" ph="..." />
-                <marker date="1557153015525" expanded="true" signature="729:1170" ph="..." />
-                <marker date="1557153015525" expanded="true" signature="1433:1480" ph="..." />
-                <marker date="1557153015525" expanded="true" signature="2272:2275" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/700.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="56" selection-end-column="7" />
-              <folding>
-                <marker date="1557153990416" expanded="true" signature="231:483" ph="..." />
-                <marker date="1557153990416" expanded="true" signature="831:836" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/965.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/938.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <marker date="1557210516600" expanded="true" signature="235:241" ph="..." />
-              </folding>
+            <state relative-caret-position="-486">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1022.py">
+        <entry file="file://$PROJECT_DIR$/43.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <marker date="1557211532474" expanded="true" signature="220:328" ph="..." />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -382,15 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/784.py" />
-        <option value="$PROJECT_DIR$/binary_search_tree.py" />
-        <option value="$PROJECT_DIR$/linked_binary_tree.py" />
-        <option value="$PROJECT_DIR$/637.py" />
-        <option value="$PROJECT_DIR$/100.py" />
-        <option value="$PROJECT_DIR$/101.py" />
-        <option value="$PROJECT_DIR$/110.py" />
-        <option value="$PROJECT_DIR$/104.py" />
-        <option value="$PROJECT_DIR$/107.py" />
         <option value="$PROJECT_DIR$/617.py" />
         <option value="$PROJECT_DIR$/108.py" />
         <option value="$PROJECT_DIR$/111.py" />
@@ -433,6 +331,15 @@
         <option value="$PROJECT_DIR$/965.py" />
         <option value="$PROJECT_DIR$/938.py" />
         <option value="$PROJECT_DIR$/1022.py" />
+        <option value="$PROJECT_DIR$/784.py" />
+        <option value="$PROJECT_DIR$/15.py" />
+        <option value="$PROJECT_DIR$/16.py" />
+        <option value="$PROJECT_DIR$/70.py" />
+        <option value="$PROJECT_DIR$/11.py" />
+        <option value="$PROJECT_DIR$/5.py" />
+        <option value="$PROJECT_DIR$/78.py" />
+        <option value="$PROJECT_DIR$/230.py" />
+        <option value="$PROJECT_DIR$/43.py" />
       </list>
     </option>
   </component>
@@ -443,10 +350,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-753" />
+    <option name="y" value="-19" />
+    <option name="width" value="2986" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -505,8 +412,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1022">
-    <configuration name="1022" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.43">
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -519,7 +426,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1022.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -528,7 +435,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="671" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="230" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -541,7 +448,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/671.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/230.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -550,7 +457,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="700" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="43" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -563,7 +470,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/700.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/43.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -572,7 +479,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="938" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -585,7 +492,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/938.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -594,7 +501,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="965" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="78" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -607,29 +514,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/965.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="阻尼牛顿法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/阻尼牛顿法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/78.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -639,19 +524,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.671" />
-      <item itemvalue="Python.700" />
-      <item itemvalue="Python.965" />
-      <item itemvalue="Python.938" />
-      <item itemvalue="Python.1022" />
+      <item itemvalue="Python.11" />
+      <item itemvalue="Python.5" />
+      <item itemvalue="Python.78" />
+      <item itemvalue="Python.230" />
+      <item itemvalue="Python.43" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1022" />
-        <item itemvalue="Python.938" />
-        <item itemvalue="Python.965" />
-        <item itemvalue="Python.700" />
-        <item itemvalue="Python.671" />
+        <item itemvalue="Python.43" />
+        <item itemvalue="Python.230" />
+        <item itemvalue="Python.78" />
+        <item itemvalue="Python.5" />
+        <item itemvalue="Python.11" />
       </list>
     </recent_temporary>
   </component>
@@ -750,20 +635,27 @@
       <option name="project" value="LOCAL" />
       <updated>1557106393097</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AC all easy tree problems!">
+      <created>1557212125388</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557212125388</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14977308" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49358973" visible="true" weight="0.18986385" />
+      <window_info id="Structure" order="1" sideWeight="0.50641024" side_tool="true" visible="true" weight="0.18986385" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32973805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.3312789" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39599383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.2788906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6486903" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -773,6 +665,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064266" side_tool="true" weight="0.28553137" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -822,22 +715,34 @@
     <MESSAGE value="practical methods of optimization program" />
     <MESSAGE value="remove practical methods of optimization program" />
     <MESSAGE value="AC some tree problems!" />
-    <option name="LAST_COMMIT_MESSAGE" value="AC some tree problems!" />
+    <MESSAGE value="AC all easy tree problems!" />
+    <option name="LAST_COMMIT_MESSAGE" value="AC all easy tree problems!" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="root.left.val" language="Python" />
-        <watch expression="root.val" language="Python" />
-        <watch expression="root.right.val" language="Python" />
-        <watch expression="left" language="Python" />
-        <watch expression="right" language="Python" />
-        <watch expression="value" language="Python" />
+        <watch expression="num1[i]" language="Python" />
+        <watch expression="num2[j]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>num2[j]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num1[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>max_len / 2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>value</expression-string>
         <language-id>Python</language-id>
@@ -873,63 +778,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>temp</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.dif</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pre_node.val</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/532.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/485.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/112.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="34" selection-start-line="31" selection-end-line="55" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/563.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/共轭梯度算法.py" />
-    <entry file="file://$PROJECT_DIR$/拟牛顿法.py" />
-    <entry file="file://$PROJECT_DIR$/增广拉格朗日.py" />
-    <entry file="file://$PROJECT_DIR$/newton.py" />
-    <entry file="file://$PROJECT_DIR$/阻尼牛顿法.py" />
-    <entry file="file://$PROJECT_DIR$/226.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/605.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-589" />
@@ -945,11 +796,6 @@
         <state relative-caret-position="-819">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/414.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/350.py">
@@ -1021,13 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
           <caret line="45" column="29" lean-forward="true" selection-start-line="41" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/9310390/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="4747" column="29" lean-forward="true" selection-start-line="4747" selection-start-column="29" selection-end-line="4747" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1105,9 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
           <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-          <folding>
-            <marker date="1557104242841" expanded="true" signature="295:573" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,9 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="50" column="3" selection-start-line="28" selection-end-line="50" selection-end-column="3" />
-          <folding>
-            <marker date="1557105818709" expanded="true" signature="226:303" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,9 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="38" selection-end-line="65" selection-end-column="7" />
-          <folding>
-            <marker date="1557127615329" expanded="true" signature="315:368" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,9 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding>
-            <marker date="1557128356181" expanded="true" signature="1003:1012" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,9 +972,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2511">
           <caret line="93" column="3" selection-start-line="73" selection-end-line="93" selection-end-column="3" />
-          <folding>
-            <marker date="1557142374689" expanded="true" signature="237:246" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/669.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" selection-start-line="51" selection-end-line="71" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1155,57 +986,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2403">
           <caret line="89" column="7" selection-start-line="69" selection-end-line="89" selection-end-column="7" />
-          <folding>
-            <marker date="1557153015525" expanded="true" signature="241:428" ph="..." />
-            <marker date="1557153015525" expanded="true" signature="729:1170" ph="..." />
-            <marker date="1557153015525" expanded="true" signature="1433:1480" ph="..." />
-            <marker date="1557153015525" expanded="true" signature="2272:2275" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/965.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/700.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="56" selection-end-column="7" />
-          <folding>
-            <marker date="1557153990416" expanded="true" signature="231:483" ph="..." />
-            <marker date="1557153990416" expanded="true" signature="831:836" ph="..." />
-          </folding>
+        <state relative-caret-position="1053">
+          <caret line="39" selection-start-line="39" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/965.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/938.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1557210516600" expanded="true" signature="235:241" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/669.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="51" selection-start-line="51" selection-end-line="71" selection-end-column="3" />
+        <state relative-caret-position="567">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1022.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="297">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/784.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/70.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <marker date="1557211532474" expanded="true" signature="220:328" ph="..." />
+            <marker date="1557558477531" expanded="true" signature="284:293" ph="..." />
+            <marker date="1557558477531" expanded="true" signature="284:572" ph="..." />
+            <marker date="1557558477531" expanded="true" signature="1358:1363" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" selection-start-line="25" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/78.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/234.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="77" selection-start-line="77" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/414.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="67" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/230.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/9310390/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="134" column="30" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/43.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
