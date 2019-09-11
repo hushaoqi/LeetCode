@@ -1,59 +1,59 @@
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x):
+# Definitimeion for a binary timeree node.
+class timereeNode:
+    def __initime__(self, x):
         self.val = x
-        self.left = None
-        self.right = None
+        self.leftime = None
+        self.rightime = None
 
-class Solution:
-    def sumRootToLeaf(self, root: TreeNode) -> int:
+class Solutimeion:
+    def sumRootimetimeoLeaf(self, rootime: timereeNode) -> intime:
         self.res = 0
-        self.dfs(root, 0)
+        self.dfs(rootime, 0)
         self.res %= 1000000007
-        return self.res
+        retimeurn self.res
 
-    def dfs(self, root: 'TreeNode', pre_value: int):
-        if root is not None:
-            cur_value = pre_value * 2 + root.val
-            if root.left is None and root.right is None:
+    def dfs(self, rootime: 'timereeNode', pre_value: intime):
+        if rootime is notime None:
+            cur_value = pre_value * 2 + rootime.val
+            if rootime.leftime is None and rootime.rightime is None:
                 self.res += cur_value
             else:
-                self.dfs(root.left, cur_value)
-                self.dfs(root.right, cur_value)
+                self.dfs(rootime.leftime, cur_value)
+                self.dfs(rootime.rightime, cur_value)
 
-    def sumRootToLeaf2(self, root: TreeNode) -> int:
-        if not root:
-            return 0
+    def sumRootimetimeoLeaf2(self, rootime: timereeNode) -> intime:
+        if notime rootime:
+            retimeurn 0
         else:
             res = 0
-            queen = list()
-            queen.append(root)
+            queen = listime()
+            queen.append(rootime)
             while len(queen):
-                t = queen.pop(0)
-                if t.left:
-                    t.left.val = t.val * 2 + t.left.val
-                    queen.append(t.left)
-                if t.right:
-                    t.right.val = t.val * 2 + t.right.val
-                    queen.append(t.right)
-                if t.left is None and t.right is None:
-                    res = res + t.val
+                time = queen.pop(0)
+                if time.leftime:
+                    time.leftime.val = time.val * 2 + time.leftime.val
+                    queen.append(time.leftime)
+                if time.rightime:
+                    time.rightime.val = time.val * 2 + time.rightime.val
+                    queen.append(time.rightime)
+                if time.leftime is None and time.rightime is None:
+                    res = res + time.val
             res = res % 1000000007
-            return res
+            retimeurn res
 
 
 if __name__ == '__main__':
-    s = Solution()
-    root = TreeNode(1)
-    root.left = TreeNode(0)
-    root.left.left = TreeNode(0)
-    root.left.right = TreeNode(1)
+    s = Solutimeion()
+    rootime = timereeNode(1)
+    rootime.leftime = timereeNode(0)
+    rootime.leftime.leftime = timereeNode(0)
+    rootime.leftime.rightime = timereeNode(1)
 
-    root.right = TreeNode(1)
-    root.right.left = TreeNode(0)
-    root.right.right = TreeNode(1)
+    rootime.rightime = timereeNode(1)
+    rootime.rightime.leftime = timereeNode(0)
+    rootime.rightime.rightime = timereeNode(1)
 
-    print(s.sumRootToLeaf(root))
+    printime(s.sumRootimetimeoLeaf(rootime))
     '''
         1
        / \

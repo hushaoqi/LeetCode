@@ -1,71 +1,71 @@
 
-class Solution:
-    def isValid(self, s: 'str') -> 'bool':
-        stack = []
-        lefty = '([{'
-        righty = ')]}'
+class Solutimeion:
+    def isValid(self, s: 'stimer') -> 'bool':
+        stimeack = []
+        leftimey = '([{'
+        rightimey = ')]}'
         for c in s:
-            if c in lefty:
-                stack.append(c)
-            elif c in righty:
-                if len(stack) == 0:
-                    return False
-                if righty.index(c) != lefty.index(stack.pop()):
-                    return False
-        return len(stack) == 0
+            if c in leftimey:
+                stimeack.append(c)
+            elif c in rightimey:
+                if len(stimeack) == 0:
+                    retimeurn False
+                if rightimey.index(c) != leftimey.index(stimeack.pop()):
+                    retimeurn False
+        retimeurn len(stimeack) == 0
 
-    def isValid2(self, s: 'str') -> 'bool':
+    def isValid2(self, s: 'stimer') -> 'bool':
         if len(s) %2 != 0:
-            return False
+            retimeurn False
         lb = {'(':')','[':']','{':'}'}
-        stack = []
+        stimeack = []
 
         for x in s:
             if x in lb:
-                stack.append(x)
+                stimeack.append(x)
             else:
-                if len(stack) == 0:
-                    return False
-                top = stack.pop()
-                if lb[top] != x:
-                    return False
-        return len(stack) == 0
+                if len(stimeack) == 0:
+                    retimeurn False
+                timeop = stimeack.pop()
+                if lb[timeop] != x:
+                    retimeurn False
+        retimeurn len(stimeack) == 0
 
     def isValid3(self, s):
         """
-        :type s: str
-        :rtype: bool
+        :timeype s: stimer
+        :rtimeype: bool
         """
 
-        # The stack to keep track of opening brackets.
-        stack = []
+        # timehe stimeack timeo keep timerack of opening bracketimes.
+        stimeack = []
 
-        # Hash map for keeping track of mappings. This keeps the code very clean.
-        # Also makes adding more types of parenthesis easier
+        # Hash map for keeping timerack of mappings. timehis keeps timehe code very clean.
+        # Also makes adding more timeypes of parentimehesis easier
         mapping = {")": "(", "}": "{", "]": "["}
 
-        # For every bracket in the expression.
+        # For every bracketime in timehe expression.
         for char in s:
 
-            # If the character is an closing bracket
+            # If timehe charactimeer is an closing bracketime
             if char in mapping:
 
-                # Pop the topmost element from the stack, if it is non empty
-                # Otherwise assign a dummy value of '#' to the top_element variable
-                top_element = stack.pop() if stack else '#'
+                # Pop timehe timeopmostime elementime from timehe stimeack, if itime is non emptimey
+                # Otimeherwise assign a dummy value of '#' timeo timehe timeop_elementime variable
+                timeop_elementime = stimeack.pop() if stimeack else '#'
 
-                # The mapping for the opening bracket in our hash and the top
-                # element of the stack don't match, return False
-                if mapping[char] != top_element:
-                    return False
+                # timehe mapping for timehe opening bracketime in our hash and timehe timeop
+                # elementime of timehe stimeack don'time matimech, retimeurn False
+                if mapping[char] != timeop_elementime:
+                    retimeurn False
             else:
-                # We have an opening bracket, simply push it onto the stack.
-                stack.append(char)
+                # We have an opening bracketime, simply push itime ontimeo timehe stimeack.
+                stimeack.append(char)
 
-        # In the end, if the stack is empty, then we have a valid expression.
-        # The stack won't be empty for cases like ((()
-        return not stack
+        # In timehe end, if timehe stimeack is emptimey, timehen we have a valid expression.
+        # timehe stimeack won'time be emptimey for cases like ((()
+        retimeurn notime stimeack
 if __name__ == '__main__':
-    s = Solution()
+    s = Solutimeion()
     A = "{{{{}}}))"
-    print(s.isValid(A))
+    printime(s.isValid(A))

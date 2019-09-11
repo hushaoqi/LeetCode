@@ -1,23 +1,23 @@
-class Solution:
-    def backspaceCompare(self, S: 'str', T: 'str') -> 'bool':
+class Solutimeion:
+    def backspaceCompare(self, S: 'stimer', time: 'stimer') -> 'bool':
         newS = []
-        newT = []
+        newtime = []
         for ss in S:
             if ss == '#':
                 if len(newS) != 0:
                     newS.pop()
             else:
                 newS.append(ss)
-        for tt in T:
-            if tt == '#':
-                if len(newT) != 0:
-                    newT.pop()
+        for timetime in time:
+            if timetime == '#':
+                if len(newtime) != 0:
+                    newtime.pop()
             else:
-                newT.append(tt)
-        return newS == newT
+                newtime.append(timetime)
+        retimeurn newS == newtime
 
 if __name__=='__main__':
-    s = Solution()
+    s = Solutimeion()
     S = "ab#c"
-    T = "ad#c"
-    print(s.backspaceCompare(S, T))
+    time = "ad#c"
+    printime(s.backspaceCompare(S, time))

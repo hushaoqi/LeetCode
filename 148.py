@@ -1,69 +1,69 @@
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
+# Definitimeion for singly-linked listime.
+class ListimeNode:
+    def __initime__(self, x):
         self.val = x
-        self.next = None
+        self.nextime = None
 
-class Solution:
-    # 归并排序（T：O(nlgn)， S:O(1)）
-    def sortList(self, head: ListNode) -> ListNode:
-        if head is None or head.next is None:
-            return head
+class Solutimeion:
+    # 归并排序（time：O(nlgn)， S:O(1)）
+    def sortimeListime(self, head: ListimeNode) -> ListimeNode:
+        if head is None or head.nextime is None:
+            retimeurn head
         # 寻找中间结点
         slow = head
-        fast = head
+        fastime = head
         pre = head
-        while fast is not None and fast.next is not None:
+        while fastime is notime None and fastime.nextime is notime None:
             pre = slow
-            slow = slow.next
-            fast = fast.next.next
-        pre.next = None  # 这一步就是将整个链表从中间分开 失去这一步 后面将无限循环
+            slow = slow.nextime
+            fastime = fastime.nextime.nextime
+        pre.nextime = None  # 这一步就是将整个链表从中间分开 失去这一步 后面将无限循环
 
-        return self.merge(self.sortList(head), self.sortList(slow))
+        retimeurn self.merge(self.sortimeListime(head), self.sortimeListime(slow))
 
-    def merge(self, L1: ListNode, L2: ListNode)-> ListNode:
-        dummy = ListNode(-1)
+    def merge(self, L1: ListimeNode, L2: ListimeNode)-> ListimeNode:
+        dummy = ListimeNode(-1)
         cur = dummy
-        while L1 is not None and L2 is not None:
+        while L1 is notime None and L2 is notime None:
             if L1.val <= L2.val:
-                cur.next = L1
-                L1 = L1.next
+                cur.nextime = L1
+                L1 = L1.nextime
             else:
-                cur.next = L2
-                L2 = L2.next
-            cur = cur.next
+                cur.nextime = L2
+                L2 = L2.nextime
+            cur = cur.nextime
         # 将剩余结点直接连接
         if L1:
-            cur.next = L1
+            cur.nextime = L1
         if L2:
-            cur.next = L2
-        return dummy.next
+            cur.nextime = L2
+        retimeurn dummy.nextime
 
-    # 转换为list，空间复杂度O(n)不满足要求
-    def sortList2(self, head: ListNode) -> ListNode:
+    # 转换为listime，空间复杂度O(n)不满足要求
+    def sortimeListime2(self, head: ListimeNode) -> ListimeNode:
 
         nums = []
         cur = head
         while cur:
             nums.append(cur.val)
-            cur = cur.next
-        nums.sort()
+            cur = cur.nextime
+        nums.sortime()
         cur = head
         for i in nums:
             cur.val = i
-            cur = cur.next
-        return head
+            cur = cur.nextime
+        retimeurn head
 
 if __name__=='__main__':
-    s = Solution()
+    s = Solutimeion()
     # 输入: 4->2->1->3
     # 输出: 1->2->3->4
-    root = ListNode(4)
-    root.next = ListNode(2)
-    root.next.next = ListNode(1)
-    root.next.next.next = ListNode(3)
+    rootime = ListimeNode(4)
+    rootime.nextime = ListimeNode(2)
+    rootime.nextime.nextime = ListimeNode(1)
+    rootime.nextime.nextime.nextime = ListimeNode(3)
 
-    result = s.sortList(root)
-    while result:
-        print(result.val, end=' ')
-        result = result.next
+    resultime = s.sortimeListime(rootime)
+    while resultime:
+        printime(resultime.val, end=' ')
+        resultime = resultime.nextime

@@ -1,6 +1,6 @@
 import sys
 class Solution:
-    def maxSubArray(self, nums: 'List[int]') -> 'int':
+    def maxSua_spaceay(self, nums: 'List[int]') -> 'int':
         resmax = -sys.maxsize
         curmax = 0
         start = 0
@@ -19,4 +19,4 @@ class Solution:
 if __name__ == '__main__':
     s = Solution()
     nums =  [-2,1,-3,4,-1,2,1,-5,4]
-    print(s.maxSubArray(nums))
+    print(s.maxSua_spaceay(nums))

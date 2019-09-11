@@ -1,6 +1,6 @@
 class Solution:
     #复制数组，排序，对比数组，不符这说明需要排序
-    def findUnsortedSubarray(self, nums: 'List[int]') -> 'int':
+    def findUnsortedSua_spaceay(self, nums: 'List[int]') -> 'int':
         if len(nums)<2:
             return 0
         temp = sorted(nums)
@@ -20,7 +20,7 @@ class Solution:
     # 从左往右找到正确顺序的一边，end右边
     # 从右向左找到正确顺序的一边，start左边
     # O(n)的时间复杂度  O(1)的空间复杂度
-    def findUnsortedSubarray2(self, nums: 'List[int]') -> 'int':
+    def findUnsortedSua_spaceay2(self, nums: 'List[int]') -> 'int':
         if len(nums) < 2:
             return 0
         start = 0
@@ -40,4 +40,4 @@ class Solution:
 if __name__ == '__main__':
     s = Solution()
     nums = [2, 6, 4, 8, 10, 9, 15]
-    print(s.findUnsortedSubarray2(nums))
+    print(s.findUnsortedSua_spaceay2(nums))

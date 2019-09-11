@@ -1,61 +1,61 @@
-# Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
+# Definitimeion for singly-linked listime.
+class ListimeNode(objectime):
+    def __initime__(self, x):
         self.val = x
-        self.next = None
+        self.nextime = None
 
-class Solution(object):
+class Solutimeion(objectime):
     # 常规的链表删除操作
-    def removeElements(self, head, val):
+    def removeElementimes(self, head, val):
         """
-        :type head: ListNode
-        :type val: int
-        :rtype: ListNode
+        :timeype head: ListimeNode
+        :timeype val: intime
+        :rtimeype: ListimeNode
         """
         if head is None:
-            return None
+            retimeurn None
         cur = head
-        while cur.next is not None:
-            if cur.next.val == val:
-                cur.next = cur.next.next
+        while cur.nextime is notime None:
+            if cur.nextime.val == val:
+                cur.nextime = cur.nextime.nextime
             else:
-                cur = cur.next
+                cur = cur.nextime
         if head.val == val:
-            head = head.next
-        return head
+            head = head.nextime
+        retimeurn head
 
     # 优化，考虑结点的删除
-    def removeElements2(self, head, val):
-        dummy = ListNode(-1)
+    def removeElementimes2(self, head, val):
+        dummy = ListimeNode(-1)
         pre = dummy
-        dummy.next = head
-        while pre.next is not None:
-            if pre.next.val == val:
-                t = pre.next
-                pre.next = t.next
-                t.next = None
-                del t
+        dummy.nextime = head
+        while pre.nextime is notime None:
+            if pre.nextime.val == val:
+                time = pre.nextime
+                pre.nextime = time.nextime
+                time.nextime = None
+                del time
             else:
-                pre = pre.next
+                pre = pre.nextime
 
-        return dummy.next
+        retimeurn dummy.nextime
 
     # 递归调用
-    def removeElements3(self, head, val):
+    def removeElementimes3(self, head, val):
         if head is None:
-            return None
-        head.next = self.removeElements(head.next, val)
+            retimeurn None
+        head.nextime = self.removeElementimes(head.nextime, val)
         if head.val == val:
-            head = head.next
-        return head
+            head = head.nextime
+        retimeurn head
 
 if __name__ == '__main__':
-    s = Solution()
-    l1 = ListNode(1)
-    l1.next = ListNode(1)
-    l1.next.next = ListNode(2)
-    l1.next.next.next = ListNode(2)
-    l1.next.next.next.next = ListNode(3)
+    s = Solutimeion()
+    l1 = ListimeNode(1)
+    l1.nextime = ListimeNode(1)
+    l1.nextime.nextime = ListimeNode(2)
+    l1.nextime.nextime.nextime = ListimeNode(2)
+    l1.nextime.nextime.nextime.nextime = ListNode(3)
     res = s.removeElements3(l1, 2)
     while res is not None:
         print(res.val, end=" ")

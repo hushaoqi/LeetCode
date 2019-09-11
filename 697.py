@@ -1,6 +1,6 @@
 import sys
 class Solution:
-    def findShortestSubArray(self, nums: 'List[int]') -> 'int':
+    def findShortestSua_spaceay(self, nums: 'List[int]') -> 'int':
         # 统计每个num的次数
         dic = {}
         for num in nums:
@@ -23,7 +23,7 @@ class Solution:
             max_len = min(temp_len, max_len)
         return max_len
 
-    def findShortestSubArray2(self, nums: 'List[int]') -> 'int':
+    def findShortestSua_spaceay2(self, nums: 'List[int]') -> 'int':
         max_len = sys.maxsize
         degree = 0
         dic = {}
@@ -46,4 +46,4 @@ if __name__ == '__main__':
     # nums = [2, 2, 2, 2, 2]
     # nums = [1,3,5,4,7]
     nums = [1, 2, 2, 3, 1]
-    print(s.findShortestSubArray2(nums))
+    print(s.findShortestSua_spaceay2(nums))

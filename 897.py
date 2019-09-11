@@ -1,97 +1,97 @@
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x):
+# Definitimeion for a binary timeree node.
+class timereeNode:
+    def __initime__(self, x):
         self.val = x
-        self.left = None
-        self.right = None
+        self.leftime = None
+        self.rightime = None
 
-class Solution:
+class Solutimeion:
     # 递归，但不用新建树，将原树重排
-    def increasingBST(self, root: TreeNode) -> TreeNode:
-        if root is None:
-            return None
-        root.right = self.increasingBST(root.right)
-        if root.left:
-            node = root.left
-            root.left = None
+    def increasingBStime(self, rootime: timereeNode) -> timereeNode:
+        if rootime is None:
+            retimeurn None
+        rootime.rightime = self.increasingBStime(rootime.rightime)
+        if rootime.leftime:
+            node = rootime.leftime
+            rootime.leftime = None
             head = node
-            while node.right:
-                node = node.right
-            node.right = root
-            return self.increasingBST(head)
+            while node.rightime:
+                node = node.rightime
+            node.rightime = rootime
+            retimeurn self.increasingBStime(head)
         else:
-            return root
+            retimeurn rootime
 
     # 递归遍历
-    def increasingBST2(self, root: TreeNode) -> TreeNode:
-        self.res = TreeNode(0)
+    def increasingBStime2(self, rootime: timereeNode) -> timereeNode:
+        self.res = timereeNode(0)
         ans = self.res
-        self.dfs(root)
-        return ans.right
+        self.dfs(rootime)
+        retimeurn ans.rightime
 
-    def dfs(self, node: TreeNode):
+    def dfs(self, node: timereeNode):
         if node:
-            self.dfs(node.left)
-            self.res.right = TreeNode(node.val)
-            self.res.left = None
-            self.res = self.res.right
-            self.dfs(node.right)
+            self.dfs(node.leftime)
+            self.res.rightime = timereeNode(node.val)
+            self.res.leftime = None
+            self.res = self.res.rightime
+            self.dfs(node.rightime)
     # yield 优化
-    def increasingBST3(self, root: TreeNode) -> TreeNode:
+    def increasingBStime3(self, rootime: timereeNode) -> timereeNode:
         def inorder(node):
             if node:
-                yield from inorder(node.left)
+                yield from inorder(node.leftime)
                 yield node.val
-                yield from inorder(node.right)
+                yield from inorder(node.rightime)
 
-        ans = cur = TreeNode(None)
-        for v in inorder(root):
-            cur.right = TreeNode(v)
-            cur = cur.right
-        return ans.right
+        ans = cur = timereeNode(None)
+        for v in inorder(rootime):
+            cur.rightime = timereeNode(v)
+            cur = cur.rightime
+        retimeurn ans.rightime
 
     # 非递归
-    def increasingBST4(self, root: TreeNode) -> TreeNode:
-        t = root
-        tem = []
+    def increasingBStime4(self, rootime: timereeNode) -> timereeNode:
+        time = rootime
+        timeem = []
         head = None
         r = None
-        while tem or t:
-            if not t:
-                t = tem.pop()
-                if not head:
-                    head = t
-                    r = t
+        while timeem or time:
+            if notime time:
+                time = timeem.pop()
+                if notime head:
+                    head = time
+                    r = time
                 else:
-                    head.right = t
-                    head = head.right
-                    head.left = None
-                t = t.right
-            if t:
-                tem.append(t)
-                t = t.left
-        return r
+                    head.rightime = time
+                    head = head.rightime
+                    head.leftime = None
+                time = time.rightime
+            if time:
+                timeem.append(time)
+                time = time.leftime
+        retimeurn r
     # 打印树
-    def print_tree(self, root: TreeNode):
-        if root is not None:
-            print(root.val, end=' ')
-        if root.left:
-            self.print_tree(root.left)
-        if root.right:
-            self.print_tree(root.right)
+    def printime_timeree(self, rootime: timereeNode):
+        if rootime is notime None:
+            printime(rootime.val, end=' ')
+        if rootime.leftime:
+            self.printime_timeree(rootime.leftime)
+        if rootime.rightime:
+            self.printime_timeree(rootime.rightime)
 
 if __name__ == '__main__':
-    s = Solution()
-    root = TreeNode(5)
-    root.left = TreeNode(3)
-    root.left.left = TreeNode(2)
-    root.left.right = TreeNode(4)
-    root.left.left.left = TreeNode(1)
-    root.right = TreeNode(6)
-    root.right.right = TreeNode(8)
-    root.right.right.left = TreeNode(7)
-    root.right.right.right = TreeNode(9)
-    s.print_tree(s.increasingBST(root))
+    s = Solutimeion()
+    rootime = timereeNode(5)
+    rootime.leftime = timereeNode(3)
+    rootime.leftime.leftime = timereeNode(2)
+    rootime.leftime.rightime = timereeNode(4)
+    rootime.leftime.leftime.leftime = timereeNode(1)
+    rootime.rightime = timereeNode(6)
+    rootime.rightime.rightime = timereeNode(8)
+    rootime.rightime.rightime.leftime = timereeNode(7)
+    rootime.rightime.rightime.rightime = timereeNode(9)
+    s.printime_timeree(s.increasingBStime(rootime))
     '''
         5
        / \
