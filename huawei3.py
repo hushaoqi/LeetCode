@@ -27,13 +27,14 @@ for i in range(N):
     for j in range(0, N-1):
         if int(all_message[j][0][2:]) < int(all_message[j+1][0][2:]):
             all_message[j], all_message[j+1] = all_message[j+1], all_message[j]
-        elif int(all_message[j][0][2:]) == int(all_message[j+1][0][2:]) and int(all_message[j][1][1:]) < int(all_message[j+1][1][1:]):
+        elif int(all_message[j][0][2:]) == int(all_message[j+1][0][2:]) \
+                and int(all_message[j][1][1:]) < int(all_message[j+1][1][1:]):
             all_message[j], all_message[j + 1] = all_message[j + 1], all_message[j]
 
-# 没时间了写了。。。。。。
 
-# for res in all_message:
-#     print(res)
-print('CZ7132,A2,ZHAOSI')
-print('CZ7156,A2,ZHANGSAN')
-print('CZ7156,A3,WANGWU')
+for res in all_message:
+    print(res)
+
+# print('CZ7132,A2,ZHAOSI')
+# print('CZ7156,A2,ZHANGSAN')
+# print('CZ7156,A3,WANGWU')

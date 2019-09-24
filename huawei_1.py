@@ -1,5 +1,6 @@
 input_str = input().strip()
 # 输入格式转换
+# A:[2,3,4,5,6],B:[3,4,4,6,8,9],R:3
 for i in range(len(input_str)):
     if input_str[i] == 'B':  # 循环遍历，找字符为B的位置
         A_str = input_str[3:i-2]  # 然后把A数列剪切出来
@@ -37,18 +38,3 @@ while i < len(A):  # 依次遍历
 
     i += 1
 
-
-
- # while j < len(B) and A[i] > B[j]:
-        #     j += 1
-        #
-        # if B[j] - A[i] <= R:
-        #     # print((A[i],B[j]), end='')
-        #     print('('+ str(A[i])+','+str(B[j])+')',end='')
-        #     j += 1
-        #     flag = True
-        # else:
-        #     if flag == False:
-        #         # print((A[i],B[j]), end='')
-        #         print('(' + str(A[i]) + ',' + str(B[j]) + ')',end='')
-        #     break
