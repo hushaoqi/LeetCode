@@ -43,11 +43,14 @@ class Solution:
 
 if __name__=='__main__':
     s = Solution()
-    matrix = \
-        [
-            [1, 2, 3, 4],
-            [5, 6, 7, 8],
-            [9, 10, 11, 12]
-        ]
+    m, n = map(int, input().split())
+    matrix = []
+    for i in range(m):
+        matrix.append(list(map(int, input().split())))
 
-    print(s.spiralOrder(matrix))
+
+    result = s.spiralOrder(matrix)
+    result = str(result)
+    for t in result:
+        if t != '[' and t != ']' and t != ' ':
+            print(t,end="")

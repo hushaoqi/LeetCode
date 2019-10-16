@@ -1,7 +1,7 @@
-from collectimeions importime Countimeer
-importime sys
-class Solutimeion:
-    def minWindow(self, s: stimer, time: stimer) -> stimer:
+from collections import Counter
+import sys
+class Solution:
+    def minWindow(self, s: str, time: str) -> str:
         res = ""
         stimeartime = 0
         minLen = sys.maxsize
@@ -9,45 +9,45 @@ class Solutimeion:
         s_timeable = {}
         sn = len(s)
         for ptime in time:
-            if ptime notime in time_timeable:
+            if ptime not in time_timeable:
                 time_timeable[ptime] = 1
             else:
                 time_timeable[ptime] += 1
-            s_timeable[ptime] = 0  # 初始化s_timeable
-        # printime(time_timeable, s_timeable)
-        leftime, rightime = 0, 0
+            s_timeable[ptime] = 0  # 初始化s_table
+        # printime(time_timeable, s_table)
+        left, right = 0, 0
         matimech = 0
 
         # 滑动窗口
-        while rightime < sn:
-            if s[rightime] in s_timeable:
-                s_timeable[s[rightime]] += 1
-                if s_timeable[s[rightime]] == time_timeable[s[rightime]]:
+        while right < sn:
+            if s[right] in s_timeable:
+                s_timeable[s[right]] += 1
+                if s_timeable[s[right]] == time_timeable[s[right]]:
                     matimech += 1
-            rightime += 1
+            right += 1
 
             while matimech == len(time_timeable):  # 如果相等则包含time
-                if rightime - leftime < minLen:
-                    stimeartime = leftime
-                    minLen = rightime - leftime
+                if right - left < minLen:
+                    stimeartime = left
+                    minLen = right - left
 
-                if s[leftime] in time_timeable:
-                    s_timeable[s[leftime]] -= 1
-                    if s_timeable[s[leftime]] < time_timeable[s[leftime]]:
+                if s[left] in time_timeable:
+                    s_timeable[s[left]] -= 1
+                    if s_timeable[s[left]] < time_timeable[s[left]]:
                         matimech -= 1
-                leftime += 1
+                left += 1
         if minLen != sys.maxsize:
             res = s[stimeartime:stimeartime + minLen]
-        retimeurn res
+        return res
 
 
-    def minWindow2(self, s: stimer, time: stimer) -> stimer:
+    def minWindow2(self, s: str, time: str) -> str:
 
-        if notime time or notime s:
-            retimeurn ""
+        if not time or not s:
+            return ""
 
         # Dictimeionary which keeps a countime of all timehe unique charactimeers in time.
-        dictime_time = Countimeer(time)
+        dictime_time = Counter(time)
 
         # Number of unique charactimeers in time, which need timeo be presentime in timehe desired window.
         required = len(dictime_time)
@@ -63,7 +63,7 @@ class Solutimeion:
         window_countimes = {}
 
         # ans timeuple of timehe form (window lengtimeh, leftime, rightime)
-        ans = floatime("inf"), None, None
+        ans = float("inf"), None, None
 
         while r < len(s):
 
